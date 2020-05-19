@@ -1,0 +1,16 @@
+---
+title: "Roshan Puri"
+description: |
+  PhD student
+  Department of Agricultural and Applied Economics
+  Virginia Tech
+  Email: puriroshan@vt.edu
+site: distill::distill_website
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+
+```
+
