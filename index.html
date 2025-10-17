@@ -1,28 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Rohsan Puri</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header>
-      <h1>Rohsan Puri</h1>
-      <nav>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Roshan Puri — University of California, Davis</title>
+  <link rel="stylesheet" href="style.css" />
+  <meta name="description" content="Roshan Puri — Postdoc scholar, Environmental Economics & Applied Econometrics, University of California, Davis."/>
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"Person",
+    "name":"Roshan Puri",
+    "jobTitle":"Postdoc scholar",
+    "affiliation":{"@type":"CollegeOrUniversity","name":"University of California, Davis"},
+    "url":"https://puriroshan.github.io",
+    "sameAs":["https://scholar.google.com/citations?user=Vcx8ZqsAAAAJ&hl=en"]
+  }
+  </script>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1 class="site-title">Roshan Puri</h1>
+      <p class="site-subtitle">Postdoc scholar · University of California, Davis</p>
+      <nav class="nav">
         <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="projects.html">Projects</a>
+        <a href="cv.html">CV</a>
+        <a href="publications.html">Publications</a>
+        <a href="contact.html">Contact</a>
+        <a class="btn" href="https://scholar.google.com/citations?user=Vcx8ZqsAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a>
       </nav>
-    </header>
+    </div>
+  </header>
 
-    <main>
-      <h2>Welcome!</h2>
-      <p>Hi, I’m Rohsan — welcome to my personal website. I’ll be sharing my projects, ideas, and things I learn here.</p>
-    </main>
+  <main class="container">
+    <section class="card">
+      <h2>About</h2>
+      <p>I am a Postdoctoral Scholar in the <strong>University of California, Davis</strong>. My research interests are in <strong>Environmental Economics</strong> and <strong>Applied Econometrics</strong>.</p>
+      <div>
+        <span class="tag">Environmental Economics</span>
+        <span class="tag">Applied Econometrics</span>
+      </div>
+    </section>
 
-    <footer>
-      <p>© 2025 Rohsan Puri — Built on GitHub Pages</p>
-    </footer>
-  </body>
+    <section class="grid">
+      <div class="card">
+        <h2>Research</h2>
+        <p>I study questions at the intersection of environment, policy, and data. A short summary of current projects:</p>
+        <ul>
+          <li><em>Project A</em> — one-line description (update later).</li>
+          <li><em>Project B</em> — one-line description (update later).</li>
+        </ul>
+        <p><a href="publications.html">See publications →</a></p>
+      </div>
+
+      <div class="card">
+        <h2>News</h2>
+        <ul>
+          <li>[Month YYYY] Paper accepted at <em>Journal/Conference</em>.</li>
+          <li>[Month YYYY] New working paper posted.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Teaching & Service</h2>
+      <ul>
+        <li>[Course / Role], UC Davis, [Term/Year].</li>
+        <li>[Service / Seminar / Refereeing], [Year].</li>
+      </ul>
+    </section>
+  </main>
+
+  <div class="footer">© <span id="y"></span> Roshan Puri</div>
+  <script>document.getElementById('y').textContent = new Date().getFullYear()</script>
+</body>
 </html>
