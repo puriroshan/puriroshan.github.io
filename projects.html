@@ -1,37 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Projects</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Projects — Roshan Puri</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header>
     <h1>Projects</h1>
+    <p>Current research and collaborations</p>
     <nav>
       <a href="index.html">Home</a>
-      <a href="about.html">About</a>
+      <a href="publications.html">Publications</a>
       <a href="projects.html">Projects</a>
+      <a href="cv.html">CV</a>
     </nav>
   </header>
 
   <main>
-    <h2>Things I’ve Worked On</h2>
+    <h2>Ongoing Projects</h2>
+    <ul>
+      <li><strong>Habitat restoration valuation under SGMA</strong> — estimating public willingness to pay for migratory bird habitat restoration on retired agricultural lands.</li>
+      <li><strong>Birdwatcher demand and grassland restoration</strong> — assessing economic value of recreational birdwatching for habitat policy design.</li>
+    </ul>
 
-    <div class="project">
-      <h3>Project One</h3>
-      <p>Brief description of your first project — what it does and why you built it.</p>
-    </div>
-
-    <div class="project">
-      <h3>Project Two</h3>
-      <p>Brief description of another project.</p>
-    </div>
+    <h2>Past Projects</h2>
+    <ul>
+      <li>List previous or completed research, collaborations, or datasets.</li>
+    </ul>
   </main>
 
-  <footer>
-    <p>© 2025 Rohsan Puri</p>
-  </footer>
+  <footer>© <span id="year"></span> Roshan Puri</footer>
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
 </body>
 </html>
