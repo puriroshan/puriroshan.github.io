@@ -1,77 +1,83 @@
-/* ===== Clean Academic Theme v2 (Centered Layout + Readable Spacing) ===== */
+/* ===== Minimal Academic Theme — v3 ===== */
+/* Typography + spacing tuned for readability. */
 
-body {
-  font-family: "Inter", "Segoe UI", Roboto, sans-serif;
-  background: #ffffff;
-  color: #222;
-  margin: 0;
-  padding: 0;
-  line-height: 1.8;
-}
-
-header {
-  text-align: center;
-  padding: 60px 20px 30px;
-}
-
-h1 {
-  margin: 0;
-  font-size: 2.2rem;
-  font-weight: 700;
+:root{
+  --bg:#ffffff;
+  --ink:#1b1b1f;
+  --muted:#5b5b66;
+  --line:#ececf0;
+  --brand:#1a73e8;
+  --maxw:820px;
+  --r:14px;          /* border radius */
+  --s1:.4rem;        /* spacing scale */
+  --s2:.8rem;
+  --s3:1.2rem;
+  --s4:1.8rem;
+  --s5:2.6rem;
 }
 
-h2 {
-  font-weight: 600;
-  margin-top: 2.5rem;
-  font-size: 1.4rem;
-  text-align: center;
+*{box-sizing:border-box}
+html,body{margin:0;padding:0;background:var(--bg);color:var(--ink);}
+body{
+  font: 16px/1.75 system-ui,-apple-system,Segoe UI,Roboto,Inter,"Helvetica Neue",Arial,sans-serif;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
 }
 
-p {
-  margin: 0.8rem 0 1.2rem;
-  color: #333;
-  text-align: justify;
+/* Header */
+.site-header{
+  padding: var(--s5) var(--s2) var(--s3);
+  text-align:center;
+  border-bottom:1px solid var(--line);
+}
+.site-title{margin:0;font-weight:800;font-size: clamp(1.8rem, 2.5vw, 2.2rem);}
+.site-sub{margin:.25rem 0 0;color:var(--muted);}
+
+/* Nav */
+.nav{
+  margin-top: var(--s3);
+  display:flex; gap:1rem; justify-content:center; flex-wrap:wrap;
+}
+.nav a{
+  color: var(--brand); text-decoration:none; font-weight:600;
+  padding:.35rem .65rem; border-radius:8px;
+}
+.nav a:hover{ background: #f2f6ff; }
+.nav a.active{ background:#e8f0ff; }
+
+/* Layout */
+.container{ max-width: var(--maxw); margin: 0 auto; padding: 0 var(--s2) var(--s5); }
+section{ margin-top: var(--s5); }
+h2{ font-size: clamp(1.2rem, 1.8vw, 1.4rem); margin:0 0 var(--s2); }
+
+/* Body text */
+p{ margin: .6rem 0 1rem; color:#2b2b31; }
+
+/* Lists (nice breathing room) */
+ul{ margin: .2rem 0 0 1.1rem; padding:0; }
+li{ margin: .6rem 0; }
+
+/* “Cards” without heavy boxes */
+.block{
+  padding: var(--s3) var(--s3);
+  border:1px solid var(--line);
+  border-radius: var(--r);
+  background:#fff;
 }
 
-a {
-  color: #1a73e8;
-  text-decoration: none;
-}
-a:hover {
-  text-decoration: underline;
-}
-
-nav {
-  margin-top: 1.5rem;
-}
-nav a {
-  margin: 0 0.8rem;
-  font-weight: 500;
-  color: #1a73e8;
-}
-nav a:hover {
-  text-decoration: underline;
+/* Footer */
+footer{
+  border-top:1px solid var(--line);
+  color:var(--muted);
+  text-align:center;
+  padding: var(--s3);
+  font-size:.95rem;
 }
 
-main {
-  max-width: 750px;
-  margin: 0 auto;
-  padding: 0 1rem 4rem;
-}
+/* Contact center helper */
+.center{ text-align:center; }
 
-ul {
-  padding-left: 1.2rem;
-  margin: 1rem 0 1.5rem;
-}
-ul li {
-  margin-bottom: 1rem;
-  text-align: justify;
-}
-
-footer {
-  text-align: center;
-  padding: 2rem 0;
-  font-size: 0.9rem;
-  color: #777;
-  border-top: 1px solid #eee;
+/* Mobile tweaks */
+@media (max-width:640px){
+  .site-header{ padding: var(--s4) var(--s2) var(--s2); }
 }
