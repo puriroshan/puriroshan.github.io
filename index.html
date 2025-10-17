@@ -3,16 +3,23 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Roshan Puri | UC Davis</title>
+  <title>Roshan Puri | University of California, Davis</title>
   <meta name="description" content="Roshan Puri — Postdoctoral Scholar, Environmental Economics & Applied Econometrics, UC Davis.">
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header class="site-header">
-    <h1 class="site-title">Roshan Puri</h1>
-    <p class="site-sub">Postdoctoral Scholar · University of California, Davis</p>
-    <nav class="nav">
-      <a class="active" href="index.html">Home</a>
+
+  <!-- ================= HEADER ================= -->
+  <header>
+    <h1>Roshan Puri</h1>
+    <div class="header-info">
+      Postdoctoral Scholar · <strong>Center for Watershed Sciences</strong><br>
+      <span class="fields">Environmental Economics · Applied Econometrics</span><br>
+      University of California, Davis
+    </div>
+
+    <nav>
+      <a href="index.html">Home</a>
       <a href="publications.html">Publications</a>
       <a href="projects.html">Projects</a>
       <a href="cv.html">CV</a>
@@ -20,52 +27,54 @@
     </nav>
   </header>
 
-  <main class="container">
+  <!-- ================= MAIN ================= -->
+  <main>
+    <h2>About</h2>
+    <p>
+      I am a Postdoctoral Scholar at the <strong>Center for Watershed Sciences</strong>, University of California, Davis, working in close collaboration with the USDA Agricultural Research Service’s <em>Sustainable Agricultural Water Systems Research Unit</em>. 
+      My research integrates environmental economics and applied econometrics to quantify the non-market values of ecosystem services at the intersection of water, agriculture, and conservation policy.
+    </p>
 
-    <section class="block">
-      <h2>About</h2>
-      <p>
-        I am a Postdoctoral Scholar at the <strong>Center for Watershed Sciences</strong>, UC Davis, working in close collaboration with the USDA Agricultural Research Service’s <em>Sustainable Agricultural Water Systems Research Unit</em>. My research integrates environmental economics and applied econometrics to quantify the non-market values of ecosystem services at the intersection of water, agriculture, and conservation policy.
-      </p>
+    <p>My current projects include:</p>
+    <ul>
+      <li>
+        <strong>Estimating public willingness to pay</strong> for migratory bird habitat restoration on SGMA-retired agricultural lands in California’s Central Valley, focusing on integrating non-market valuation into groundwater and land-use policy design.
+      </li>
+      <li>
+        <strong>Assessing birdwatchers’ willingness to pay</strong> for grassland habitat restoration in California, using survey-based valuation methods to connect recreational demand with habitat restoration and conservation planning.
+      </li>
+    </ul>
 
-      <p>My current projects include:</p>
-      <ul>
-        <li><strong>Estimating public willingness to pay</strong> for migratory bird habitat restoration on SGMA-retired agricultural lands in California’s Central Valley, focusing on integrating non-market valuation into groundwater and land-use policy design.</li>
-        <li><strong>Assessing birdwatchers’ willingness to pay</strong> for grassland habitat restoration in California, using survey-based valuation methods to connect recreational demand with habitat restoration and conservation planning.</li>
-      </ul>
+    <p>
+      Through this work, I aim to provide decision-makers with rigorous economic evidence to guide sustainable water management, land retirement, and conservation strategies in California and beyond.
+    </p>
 
-      <p>
-        Through this work, I aim to provide decision-makers with rigorous economic evidence to guide sustainable water management, land retirement, and conservation strategies in California and beyond.
-      </p>
-    </section>
+    <h2>Research & Publications</h2>
+    <p>
+      My work explores how environmental policies and economic incentives shape outcomes in agriculture, energy, and sustainability. 
+      Please visit my <a href="https://scholar.google.com/citations?user=Vcx8ZqsAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar profile</a> for a complete list of publications.
+    </p>
 
-    <section>
-      <div class="block">
-        <h2>Research & Publications</h2>
-        <p>
-          My work explores how environmental policies and economic incentives shape outcomes in agriculture, energy, and sustainability.
-          See <a href="https://scholar.google.com/citations?user=Vcx8ZqsAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a> for a complete list.
-        </p>
-        <p class="center">
-          <a href="publications.html">Browse selected publications →</a>
-        </p>
-      </div>
-    </section>
+    <p style="text-align:center;">
+      <a href="publications.html">View selected publications →</a>
+    </p>
 
-    <section>
-      <div class="block center">
-        <h2>Contact</h2>
-        <p>University of California, Davis</p>
-        <p>Email: <a href="mailto:yourname@ucdavis.edu">yourname@ucdavis.edu</a></p>
-        <p><a href="https://github.com/puriroshan" target="_blank" rel="noopener">GitHub</a></p>
-      </div>
-    </section>
-
+    <h2>Contact</h2>
+    <p style="text-align:center;">
+      University of California, Davis<br>
+      Email: <a href="mailto:yourname@ucdavis.edu">yourname@ucdavis.edu</a><br>
+      <a href="https://github.com/puriroshan" target="_blank" rel="noopener">GitHub</a>
+    </p>
   </main>
 
+  <!-- ================= FOOTER ================= -->
   <footer>
-    © <span id="y"></span> Roshan Puri
+    © <span id="year"></span> Roshan Puri
   </footer>
-  <script>document.getElementById('y').textContent = new Date().getFullYear()</script>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+
 </body>
 </html>
