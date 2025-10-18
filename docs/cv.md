@@ -27,5 +27,3 @@ permalink: /cv/
 ## Professional Activities
 - Reviewer: 
 - Member: 
-
-
