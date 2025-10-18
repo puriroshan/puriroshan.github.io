@@ -1,6 +1,5 @@
 ---
 layout: page
-title: "Roshan Puri"
 ---
 
 <div align="center">
