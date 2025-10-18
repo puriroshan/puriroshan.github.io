@@ -1,5 +1,4 @@
 
-## Ongoing
 
 ### Valuing Migratory Bird Habitat on SGMA-Retired Lands
 Estimating **public willingness to pay** for migratory bird habitat restoration on SGMA-retired agricultural lands in California’s Central Valley, integrating non-market valuation into **groundwater** and **land-use** policy design.
