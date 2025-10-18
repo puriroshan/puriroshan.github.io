@@ -1,7 +1,5 @@
 
 
-# Publications
-
 *(Add entries below. Format examples provided.)*
 
 ## Journal Articles
