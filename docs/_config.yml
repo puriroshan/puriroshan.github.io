@@ -1,4 +1,4 @@
-title: "Roshan Puri"                     # shows at top-left
+title: "Home"                     # shows at top-left
 description: "Postdoctoral Scholar · University of California, Davis"
 theme: minima
 markdown: kramdown
@@ -8,4 +8,4 @@ header_pages:
   - publications.md
   - projects.md
   - cv.md
-  - contact.md
+  - contacts.md
