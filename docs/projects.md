@@ -14,4 +14,3 @@ Assessing **birdwatchers’ willingness to pay** for grassland habitat restorati
 
 ## Past / Related
 - (Add prior projects, datasets, collaborations here.)
-
