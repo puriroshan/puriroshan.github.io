@@ -19,3 +19,19 @@ ul { margin: .5rem 0 1rem 1.1rem; }
 /* Remove Minima's footer columns that were showing extra "Home" boxes */
 .footer-col-wrapper { display: none; }
 .site-footer { border-top: none; padding-top: 0; }
+
+---
+# leave this front matter so Jekyll compiles the stylesheet
+---
+
+@import "minima";
+
+/* Remove Minima's footer columns/titles so "Home" doesn't appear there */
+.footer-col-wrapper,
+.site-footer .footer-heading { display: none; }
+
+/* Optional: keep the thin footer line but compact it */
+.site-footer { border-top: none; padding-top: 0; }
+
+/* (Keep your earlier tweaks if you had them) */
+
