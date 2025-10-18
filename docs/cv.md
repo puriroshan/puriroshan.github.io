@@ -1,4 +1,11 @@
 
+---
+layout: page
+title: "Curriculum Vitae"
+---
+
+# Curriculum Vitae
+
 - **Ph.D. in Economics**, Department of Agricultural and Applied Economics, *Virginia Tech*, 2023  
 - **M.A. in Data Analysis and Applied Statistics**, Department of Statistics, *Virginia Tech*, 2023  
 - **M.S. in Applied Economics**, Department of Agricultural Economics and Rural Sociology, *University of Idaho*, 2019  
