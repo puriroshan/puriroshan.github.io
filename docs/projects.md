@@ -1,6 +1,4 @@
 
-# Projects
-
 ## Ongoing
 
 ### Valuing Migratory Bird Habitat on SGMA-Retired Lands
