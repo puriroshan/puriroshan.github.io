@@ -1,4 +1,7 @@
-
+---
+layout: page
+title: "Publications"
+---
 
 *(Add entries below. Format examples provided.)*
 
