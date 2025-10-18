@@ -46,3 +46,6 @@ Through these works, I aim to provide decision-makers with rigorous economic evi
 ---
 
 _Last updated: {{ "now" | date: "%B %Y" }}_
+
+trigger rebuild
+
