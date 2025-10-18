@@ -1,11 +1,9 @@
 
 ---
-<div align="center">
-
+<div align="center" markdown="1">
 **Postdoctoral Scholar**  
-Center for Watershed Sciences · University of California, Davis  
-Sustainable Agricultural Water Systems Research Unit · USDA-ARS
-
+Center for Watershed Sciences \| University of California, Davis  
+Sustainable Agricultural Water Systems Research Unit \| USDA-ARS
 </div>
 
 ---
