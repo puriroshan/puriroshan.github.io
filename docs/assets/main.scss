@@ -1,5 +1,5 @@
 ---
-# leave this front matter so Jekyll processes the file
+# This front matter is required so Jekyll processes the stylesheet.
 ---
 
 @import "minima";
@@ -7,8 +7,10 @@
 /* Compact, centered academic feel */
 .page-content { padding: 1.25rem 0; }
 .wrapper { max-width: 760px; }
-h1, .post-title { font-size: 1.8rem; margin-bottom: .6rem; }
-h2 { font-size: 1.25rem; margin-top: 1.4rem; }
+
+h1, .post-title { font-size: 1.75rem; margin-bottom: .6rem; }
+h2 { font-size: 1.2rem; margin-top: 1.4rem; }
+
 p { margin: .5rem 0 1rem; }
 ul { margin: .5rem 0 1rem 1.1rem; }
-.site-title { font-weight: 700; }
+
