@@ -3,8 +3,8 @@ description: "Postdoctoral Scholar · University of California, Davis"
 theme: minima
 markdown: kramdown
 
+# Show only the subpages in the top nav (not Home)
 header_pages:
   - publications.md
   - projects.md
   - cv.md
-
