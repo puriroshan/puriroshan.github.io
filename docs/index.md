@@ -1,7 +1,7 @@
 # Roshan Puri
 **Postdoctoral Scholar**  
-*Center for Watershed Sciences*  
-_University of California, Davis_
+Center for Watershed Sciences | University of California, Davis 
+Sustainable Agricultural Water Systems Research Unit | USDA-ARS
 
 **Fields:** Environmental Economics · Applied Econometrics  
 [Google Scholar →](https://scholar.google.com/citations?user=Vcx8ZqsAAAAJ&hl=en)
@@ -22,6 +22,6 @@ Through this work, I aim to provide decision-makers with rigorous economic evide
 ---
 
 ## Contact
-📧 [yourname@ucdavis.edu](mailto:yourname@ucdavis.edu)  
+📧 [rpuri@ucdavis.edu](mailto:rpuri@ucdavis.edu)  
 [GitHub](https://github.com/puriroshan)
 
