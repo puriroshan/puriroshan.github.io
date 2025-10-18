@@ -1,9 +1,8 @@
-title: "Home"                     # shows at top-left
+title: "Home"
 description: "Postdoctoral Scholar · University of California, Davis"
 theme: minima
 markdown: kramdown
 
-# Only show these pages in the top-right nav (NO index.md here)
 header_pages:
   - publications.md
   - projects.md
