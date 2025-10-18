@@ -6,5 +6,5 @@ markdown: kramdown
 header_pages:
   - publications.md
   - projects.md
-  - cv.md
+  - vita.md
   - contact.md
