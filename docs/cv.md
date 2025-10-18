@@ -1,6 +1,4 @@
----
-layout: page
----
+
 
 # Curriculum Vitae
 
