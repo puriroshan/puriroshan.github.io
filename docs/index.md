@@ -1,28 +1,44 @@
-# Roshan Puri
+---
+layout: page
+title: "Roshan Puri"
+---
+
+<div align="center">
+
 **Postdoctoral Scholar**  
-Center for Watershed Sciences | University of California, Davis
+Center for Watershed Sciences · University of California, Davis  
+Sustainable Agricultural Water Systems Research Unit · USDA-ARS
 
-Sustainable Agricultural Water Systems Research Unit | USDA-ARS
-
-**Fields:** Environmental Economics · Applied Econometrics  
-[Google Scholar →](https://scholar.google.com/citations?user=Vcx8ZqsAAAAJ&hl=en)
+</div>
 
 ---
+
 ## About
 
-I am a Postdoctoral Scholar at the Center for Watershed Sciences, UC Davis, working in close collaboration with the USDA Agricultural Research Service’s Sustainable Agricultural Water Systems Research Unit. My research integrates environmental economics and applied econometrics to quantify the non-market values of ecosystem services at the intersection of water, agriculture, and conservation policy.
+Roshan is a Postdoctoral Scholar at the **Center for Watershed Sciences**, University of California, Davis, working in close collaboration with the USDA Agricultural Research Service’s *Sustainable Agricultural Water Systems Research Unit*.  
+His research integrates **environmental economics** and **applied econometrics** to quantify the non-market values of ecosystem services at the intersection of water, agriculture, and conservation policy.
 
-My current projects include:
+### Current Projects
+- **Estimating public willingness to pay** for migratory bird habitat restoration on SGMA-retired agricultural lands in California’s Central Valley, with a focus on integrating non-market valuation into groundwater and land-use policy design.  
+- **Assessing birdwatchers’ willingness to pay** for grassland habitat restoration in California, using survey-based valuation methods to connect recreational demand with habitat restoration and conservation planning.
 
-- Estimating public willingness to pay for migratory bird habitat restoration on SGMA-retired agricultural lands in California’s Central Valley, with a focus on integrating non-market valuation into groundwater and land-use policy design.
+Through this work, he aims to provide decision-makers with rigorous economic evidence to guide sustainable water management, land retirement, and conservation strategies in California and beyond.
 
-- Assessing birdwatchers’ willingness to pay for grassland habitat restoration in California, using survey-based valuation methods to connect recreational demand with habitat restoration and conservation planning.
+---
 
-Through this work, I aim to provide decision-makers with rigorous economic evidence to guide sustainable water management, land retirement, and conservation strategies in California and beyond.
+## Research Interests & Expertise
+
+- Non-market valuation of ecosystem services (habitat restoration, water quality, wetlands)  
+- Agricultural water use, land retirement, and conservation policy  
+- Applied econometrics and stated-preference methods
 
 ---
 
 ## Contact
-📧 [rpuri@ucdavis.edu](mailto:rpuri@ucdavis.edu)  
-[GitHub](https://github.com/puriroshan)
 
+📧 [rpuri@ucdavis.edu](mailto:rpuri@ucdavis.edu)  
+🔗 [Google Scholar](https://scholar.google.com/citations?user=Vcx8ZqsAAAAJ&hl=en) · [GitHub](https://github.com/puriroshan)
+
+---
+
+_Last updated: {{ "now" | date: "%B %Y" }}_
