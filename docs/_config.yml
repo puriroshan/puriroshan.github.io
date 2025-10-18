@@ -1,8 +1,17 @@
 title: "Home"
-description: "Postdoctoral Scholar · University of California, Davis"
+description: "Personal website and portfolio"
 theme: minima
-markdown: kramdown
 
+url: "https://puriroshan.github.io"
+baseurl: ""   # keep empty for user site
+
+# top navigation links
 header_pages:
-  - vita.md
-  - contact.md
+  - projects.md
+  - publications.md
+  - cv.md
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
