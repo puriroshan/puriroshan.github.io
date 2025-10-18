@@ -1,7 +1,5 @@
 
 ---
-layout: default
-title: "Home"
 ---
 
 <div align="center" markdown="1">
