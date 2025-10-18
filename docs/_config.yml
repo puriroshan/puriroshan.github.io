@@ -1,10 +1,11 @@
-title: "Home"
+title: "Roshan Puri"                     # shows at top-left
 description: "Postdoctoral Scholar · University of California, Davis"
 theme: minima
 markdown: kramdown
 
-# Show only the subpages in the top nav (not Home)
+# Only show these pages in the top-right nav (NO index.md here)
 header_pages:
   - publications.md
   - projects.md
   - cv.md
+  - contact.md
