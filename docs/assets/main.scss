@@ -1,37 +1,29 @@
 ---
-# keep this front matter so Jekyll compiles the SCSS
+# This front matter is REQUIRED so Jekyll compiles the SCSS. No spaces above this line.
 ---
 
-@import "minima";
+@import "minima/skins/classic";
+@import "minima/initialize";
 
-/* Compact, centered header block on the homepage */
+/* ===== Custom tweaks (safe for GitHub Pages) ===== */
+
+/* Compact page width and spacing */
+.wrapper { max-width: 760px; }
+.page-content { padding: 1.25rem 0; }
+
+/* Headings */
+.page-title, .post-title { font-size: 1.75rem; margin-bottom: .6rem; }
+h2 { font-size: 1.2rem; margin-top: 1.25rem; }
+
+/* Body rhythm */
+p { margin: .55rem 0 1rem; }
+ul { margin: .5rem 0 1rem 1.1rem; }
+
+/* Centered name block on homepage */
 div[align="center"] h1 { font-size: 2rem; margin: 0.2rem 0 0.35rem; }
 div[align="center"] strong { font-size: 1.05rem; }
 div[align="center"] { margin: 1.25rem 0 1.25rem; }
 
-/* Tighter page spacing */
-.page-content { padding: 1.25rem 0; }
-.wrapper { max-width: 760px; }
-h2 { font-size: 1.15rem; margin-top: 1.25rem; }
-p { margin: .55rem 0 1rem; }
-ul { margin: .5rem 0 1rem 1.1rem; }
-
-/* Remove Minima's footer columns that were showing extra "Home" boxes */
+/* Optional: hide footer columns (removes extra “Home” boxes) */
 .footer-col-wrapper { display: none; }
 .site-footer { border-top: none; padding-top: 0; }
-
----
-# leave this front matter so Jekyll compiles the stylesheet
----
-
-@import "minima";
-
-/* Remove Minima's footer columns/titles so "Home" doesn't appear there */
-.footer-col-wrapper,
-.site-footer .footer-heading { display: none; }
-
-/* Optional: keep the thin footer line but compact it */
-.site-footer { border-top: none; padding-top: 0; }
-
-/* (Keep your earlier tweaks if you had them) */
-
