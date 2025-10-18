@@ -3,8 +3,6 @@ layout: page
 title: "Projects"
 ---
 
-# Projects
-
 ## Ongoing Projects
 
 ### Valuing Migratory Bird Habitat on SGMA-Retired Lands
