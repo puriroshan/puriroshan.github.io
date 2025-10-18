@@ -1,13 +1,17 @@
+---
+layout: default      # default = no automatic big page title
+title: "Home"        # used in browser tab only
+---
 
 <div align="center" markdown="1">
 
 # **Roshan Puri**
+
 **Postdoctoral Scholar**  
 Center for Watershed Sciences \| University of California, Davis  
 Sustainable Agricultural Water Systems Research Unit \| USDA-ARS
 
 </div>
-
 
 ---
 
