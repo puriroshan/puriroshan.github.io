@@ -1,1 +1,12 @@
+title: "Roshan Puri"
+description: "Postdoctoral Scholar · University of California, Davis"
+theme: minima
+markdown: kramdown
+
+# Navigation links
+header_pages:
+  - index.md
+  - publications.md
+  - projects.md
+  - cv.md
 
