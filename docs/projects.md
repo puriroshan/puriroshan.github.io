@@ -4,13 +4,15 @@ title: "Projects"
 permalink: /projects/
 ---
 
-## Ongoing Projects
+# Projects
 
-### Valuing Migratory Bird Habitat on SGMA-Retired Lands
-Estimating **public willingness to pay** for migratory bird habitat restoration on SGMA-retired agricultural lands in California’s Central Valley, integrating non-market valuation into **groundwater** and **land-use** policy design.
+## Project 1
+**Title:** Example Project  
+**Description:** A short explanation of what this project does.
 
-### Birdwatcher Demand and Grassland Restoration
-Assessing **birdwatchers’ willingness to pay** for grassland habitat restoration in California, using **survey-based valuation** to connect recreational demand with habitat restoration and conservation planning.
+## Project 2
+**Title:** Another Example  
+**Description:** A second project description.
 
-## Past / Related
-- (Add prior projects, datasets, collaborations here.)
+More coming soon!
+
