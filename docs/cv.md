@@ -1,7 +1,4 @@
 
-
-# Curriculum Vitae
-
 ## Education
 - **Ph.D. in Economics**, Department of Agricultural and Applied Economics, *Virginia Tech*, 2023  
 - **M.A. in Data Analysis and Applied Statistics**, Department of Statistics, *Virginia Tech*, 2023  
