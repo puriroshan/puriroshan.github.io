@@ -17,4 +17,3 @@ permalink: /publications/
 
 > For more, see my full list on
 [Google Scholar](https://scholar.google.com/citations?user=Vcx8ZqsAAAAJ&hl=en).
-
