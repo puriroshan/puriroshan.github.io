@@ -4,7 +4,5 @@ theme: minima
 markdown: kramdown
 
 header_pages:
-  - publications.md
-  - projects.md
   - vita.md
   - contact.md
