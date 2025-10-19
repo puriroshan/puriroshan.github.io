@@ -1,73 +1,12 @@
----
-layout: default
----
-
 <style>
-  /* === Apple-like minimalist styling (stable light mode) === */
+  /* … your Apple-like page styles … */
 
-  body {
-    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display",
-      "Helvetica Neue", Arial, sans-serif;
-    color: #1d1d1f; /* Apple's system text color */
-    background-color: #fff;
-    line-height: 1.75;
-    letter-spacing: 0.2px;
-  }
-
-  /* --- Title and divider --- */
-  .page-title {
-    text-align: center;
-    font-size: 2.8rem;
-    font-weight: 600;
-    color: #1d1d1f;
-    margin-top: 2.5rem;
-    margin-bottom: 0.6rem;
-  }
-
-  .page-divider {
-    width: 60px;
-    height: 1px;
-    background-color: #d2d2d7; /* light gray line, Apple style */
-    margin: 0 auto 2.5rem;
-    border-radius: 1px;
-  }
-
-  /* --- Main content area --- */
-  .post-content {
-    max-width: 720px;
-    margin: 0 auto;
-    padding: 0 1rem;
-    font-size: 1.05rem;
-    color: #333336;
-  }
-
-  .post-content h2 {
-    font-size: 1.35rem;
-    font-weight: 600;
-    color: #1d1d1f;
-    margin-top: 2rem;
-    margin-bottom: 0.5rem;
-  }
-
-  .post-content strong {
-    color: #000;
-  }
-
-  /* --- Links (scoped so the header isn't affected) --- */
+  /* Only body/content links get Apple blue */
   .post-content a {
-    color: #0071e3; /* Apple's blue */
+    color: #0071e3;
     text-decoration: none;
     transition: color 0.2s ease;
   }
-
-  .post-content a:hover {
-    color: #005bb5;
-  }
+  .post-content a:hover { color: #005bb5; }
 </style>
 
-<div class="page-title">{{ page.title }}</div>
-<div class="page-divider"></div>
-
-<div class="post-content e-content" itemprop="articleBody">
-  {{ content }}
-</div>
