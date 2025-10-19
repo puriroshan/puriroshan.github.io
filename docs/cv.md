@@ -1,10 +1,8 @@
 ---
-layout: page
+layout: page-custom
 title: "CV"
 permalink: /cv/
 ---
-
-# Curriculum Vitae
 
 **Your Name**  
 Email: you@example.com
