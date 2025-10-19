@@ -1,5 +1,90 @@
-/* === Custom minimalist styling === */
+/* ============================
+   custom.css — minimalist site
+   ============================ */
 
+/* ---- Base tokens ---- */
+:root{
+  --maxw: 800px;             /* content column width */
+  --padx: 1rem;              /* side padding on small screens */
+  --text: #222;
+  --muted: #666;
+  --border: #e6e6e6;
+  --accent: #0b5fff;
+  --bg: #fff;
+}
+
+/* ---- Global reset-ish ---- */
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  color: var(--text);
+  background: var(--bg);
+  line-height: 1.6;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+/* ---- Content column (fixes alignment) ---- */
+/* Applies to common wrappers — whichever exists will take effect */
+main, .content, .container, .wrapper {
+  max-width: var(--maxw);
+  margin: 2rem auto;
+  padding: 0 var(--padx);
+  text-align: left;
+}
+
+/* Optional: make header/footer align with content as well */
+header .inner, footer .inner {
+  max-width: var(--maxw);
+  margin: 0 auto;
+  padding: 0 var(--padx);
+}
+
+/* ---- Typography ---- */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--text);
+  line-height: 1.25;
+  margin: 1.2em 0 0.5em;
+}
+h1 { font-size: 2rem; }
+h2 { font-size: 1.3rem; }   /* keeps your original h2 size */
+p { margin: 0 0 1em; }
+small, .muted { color: var(--muted); }
+
+/* ---- Links ---- */
+a { color: var(--accent); text-decoration: none; }
+a:hover, a:focus { text-decoration: underline; }
+
+/* ---- Lists ---- */
+ul, ol { padding-left: 1.25rem; margin: 0 0 1em; }
+li + li { margin-top: 0.25em; }
+
+/* ---- Media ---- */
+img, video { max-width: 100%; height: auto; display: block; }
+figure { margin: 1.25rem 0; }
+figcaption { color: var(--muted); font-size: 0.9rem; }
+
+/* ---- Code / Pre ---- */
+code, pre {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+  font-size: 0.95em;
+}
+pre {
+  background: #f7f7f7;
+  border: 1px solid var(--border);
+  padding: 0.75rem 1rem;
+  border-radius: 6px;
+  overflow: auto;
+}
+
+/* ---- Tables ---- */
+table { width: 100%; border-collapse: collapse; margin: 1rem 0; }
+th, td { padding: 0.6rem; border: 1px solid var(--border); text-align: left; }
+th { background: #fafafa; }
+
+/* ---- Your existing styles (kept) ---- */
 .page-title {
   text-align: center;
   font-size: 2rem;
@@ -7,7 +92,6 @@
   color: #222;
   margin-bottom: 0.5em;
 }
-
 .page-divider {
   width: 80px;
   height: 2px;
@@ -15,20 +99,26 @@
   margin: 0 auto 2em;
 }
 
-h2 {
-  font-size: 1.3rem;
-  margin-top: 1.8em;
+/* ---- Simple nav (optional) ---- */
+.nav, nav ul {
+  display: flex; gap: 1rem; list-style: none; padding: 0; margin: 0;
 }
+nav a { padding: 0.25rem 0; }
+nav a.active { font-weight: 600; }
 
-body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+/* ---- Utilities ---- */
+.center { text-align: center; }
+.right { text-align: right; }
+.mt-0 { margin-top: 0 !important; }
+.mb-0 { margin-bottom: 0 !important; }
+.mt-1 { margin-top: 0.5rem !important; }
+.mb-1 { margin-bottom: 0.5rem !important; }
+.mt-2 { margin-top: 1rem !important; }
+.mb-2 { margin-bottom: 1rem !important; }
+
+/* ---- Responsive tweaks ---- */
+@media (max-width: 520px){
+  :root { --maxw: 100%; }
+  h1 { font-size: 1.75rem; }
+  h2 { font-size: 1.2rem; }
 }
-
-main {
-  max-width: 800px;        /* keeps content nicely readable */
-  margin: 2rem auto;       /* centers the whole block on the page */
-  padding: 0 1rem;         /* adds breathing space on the sides */
-  text-align: left;        /* ensures text isn’t centered */
-}
-
-
