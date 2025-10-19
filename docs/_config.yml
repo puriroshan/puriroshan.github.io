@@ -1,13 +1,12 @@
-title: "Home"
+title: "Home"  # change to your name if you want that on the left
 description: "Personal website and portfolio"
 theme: minima
 sass:
   style: compressed
 
 url: "https://puriroshan.github.io"
-baseurl: ""   # keep empty for user site
+baseurl: ""   # user site
 
-# top navigation links
 header_pages:
   - projects.md
   - publications.md
@@ -17,5 +16,5 @@ header_pages:
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-  
+
 
