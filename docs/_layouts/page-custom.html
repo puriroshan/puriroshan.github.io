@@ -3,40 +3,63 @@ layout: default
 ---
 
 <style>
-  /* === Modern centered page header === */
+  /* === Apple-like minimalist styling === */
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display",
+      "Helvetica Neue", Arial, sans-serif;
+    color: #1d1d1f; /* Apple’s system text color */
+    background-color: #fff;
+    line-height: 1.75;
+    letter-spacing: 0.2px;
+  }
+
   .page-title {
     text-align: center;
-    font-size: 2.6rem;       /* larger title */
-    font-weight: 700;        /* bold but clean */
-    letter-spacing: 0.5px;
-    color: #111;             /* darker gray-black */
-    margin-top: 0.8em;
-    margin-bottom: 0.4em;
+    font-size: 2.8rem;
+    font-weight: 600;
+    color: #1d1d1f;
+    margin-top: 2.5rem;
+    margin-bottom: 0.6rem;
   }
 
   .page-divider {
-    width: 90px;
-    height: 2px;
-    background-color: #bbb;
-    margin: 0 auto 2.2em;    /* centers and adds breathing space */
-    border-radius: 2px;
+    width: 60px;
+    height: 1px;
+    background-color: #d2d2d7; /* light gray line, Apple style */
+    margin: 0 auto 2.5rem;
+    border-radius: 1px;
   }
 
-  /* === Make section headings proportionate === */
-  .post-content h2 {
-    font-size: 1.45rem;
-    font-weight: 600;
-    color: #222;
-    margin-top: 1.8em;
-  }
-
-  /* === General typography cleanup === */
   .post-content {
-    font-size: 1rem;
-    line-height: 1.7;
-    color: #333;
-    max-width: 750px;
+    max-width: 720px;
     margin: 0 auto;
+    padding: 0 1rem;
+    font-size: 1.05rem;
+    color: #333336;
+  }
+
+  .post-content h2 {
+    font-size: 1.35rem;
+    font-weight: 600;
+    color: #1d1d1f;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .post-content strong {
+    color: #000;
+  }
+
+  /* Subtle link styling */
+  a {
+    color: #0071e3; /* Apple's blue */
+    text-decoration: none;
+    transition: color 0.2s ease;
+  }
+
+  a:hover {
+    color: #005bb5;
   }
 </style>
 
