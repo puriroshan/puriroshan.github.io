@@ -1,79 +1,34 @@
 <header class="site-header" role="banner">
   <style>
-    /* === Apple-like top navigation === */
+    /* Apple-like centered tab bar */
     .site-header {
-      background-color: #fff;
-      border-bottom: 1px solid #e5e5e7;
-      padding: 0.8rem 0;
-      position: sticky;
-      top: 0;
-      z-index: 1000;
-      -webkit-backdrop-filter: saturate(180%) blur(20px);
-      backdrop-filter: saturate(180%) blur(20px);
+      background:#fff;
+      border-bottom:1px solid #e5e5e7;
+      position:sticky; top:0; z-index:1000;
+      -webkit-backdrop-filter:saturate(180%) blur(20px);
+      backdrop-filter:saturate(180%) blur(20px);
     }
-
-    .site-title {
-      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Helvetica Neue", Arial, sans-serif;
-      font-weight: 600;
-      color: #1d1d1f;
-      font-size: 1.1rem;
-      text-decoration: none;
-      margin-left: 1rem;
-      transition: opacity 0.2s ease;
+    .nav-wrap{
+      max-width:980px; margin:0 auto; padding:0.8rem 1rem;
+      display:flex; align-items:center; justify-content:center; gap:2.4rem;
     }
-
-    .site-title:hover {
-      opacity: 0.6;
+    .page-link{
+      font-family:-apple-system,BlinkMacSystemFont,"SF Pro Display","Helvetica Neue",Arial,sans-serif;
+      font-size:1.05rem; color:#1d1d1f; text-decoration:none;
+      transition:color .2s ease, opacity .2s ease;
     }
-
-    .site-nav {
-      float: right;
-      margin-right: 1.2rem;
-    }
-
-    .site-nav .page-link {
-      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Helvetica Neue", Arial, sans-serif;
-      font-size: 0.95rem;
-      color: #1d1d1f;
-      text-decoration: none;
-      margin-left: 1.8rem;
-      transition: color 0.2s ease;
-    }
-
-    .site-nav .page-link:hover {
-      color: #0071e3; /* Apple's blue */
-    }
-
-    @media screen and (max-width: 600px) {
-      .site-nav {
-        float: none;
-        text-align: center;
-        margin-top: 0.6rem;
-      }
-
-      .site-nav .page-link {
-        display: inline-block;
-        margin: 0 0.8rem;
-      }
-
-      .site-title {
-        display: block;
-        text-align: center;
-        margin: 0.4rem 0;
-      }
-    }
+    .page-link:hover{ color:#0071e3; }
+    .page-link[aria-current="page"]{ color:#0071e3; opacity:.9; }
   </style>
 
-  <div class="wrapper">
-    <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title }}</a>
-
-    <nav class="site-nav">
-      {% for page in site.pages %}
-        {% if page.title and page.nav_exclude != true %}
-          <a class="page-link" href="{{ page.url | relative_url }}">{{ page.title }}</a>
-        {% endif %}
-      {% endfor %}
-    </nav>
-  </div>
+  <nav class="nav-wrap">
+    {% for path in site.header_pages %}
+      {% assign p = site.pages | where: "path", path | first %}
+      {% if p %}
+        <a class="page-link"
+           href="{{ p.url | relative_url }}"
+           aria-current="{% if page.url == p.url %}page{% endif %}">{{ p.title }}</a>
+      {% endif %}
+    {% endfor %}
+  </nav>
 </header>
-
