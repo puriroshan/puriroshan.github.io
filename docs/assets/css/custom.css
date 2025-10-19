@@ -24,3 +24,11 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
 }
 
+main {
+  max-width: 800px;        /* keeps content nicely readable */
+  margin: 2rem auto;       /* centers the whole block on the page */
+  padding: 0 1rem;         /* adds breathing space on the sides */
+  text-align: left;        /* ensures text isn’t centered */
+}
+
+
