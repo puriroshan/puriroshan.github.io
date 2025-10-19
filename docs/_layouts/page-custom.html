@@ -2,6 +2,44 @@
 layout: default
 ---
 
+<style>
+  /* === Modern centered page header === */
+  .page-title {
+    text-align: center;
+    font-size: 2.6rem;       /* larger title */
+    font-weight: 700;        /* bold but clean */
+    letter-spacing: 0.5px;
+    color: #111;             /* darker gray-black */
+    margin-top: 0.8em;
+    margin-bottom: 0.4em;
+  }
+
+  .page-divider {
+    width: 90px;
+    height: 2px;
+    background-color: #bbb;
+    margin: 0 auto 2.2em;    /* centers and adds breathing space */
+    border-radius: 2px;
+  }
+
+  /* === Make section headings proportionate === */
+  .post-content h2 {
+    font-size: 1.45rem;
+    font-weight: 600;
+    color: #222;
+    margin-top: 1.8em;
+  }
+
+  /* === General typography cleanup === */
+  .post-content {
+    font-size: 1rem;
+    line-height: 1.7;
+    color: #333;
+    max-width: 750px;
+    margin: 0 auto;
+  }
+</style>
+
 <div class="page-title">{{ page.title }}</div>
 <div class="page-divider"></div>
 
