@@ -4,8 +4,6 @@ title: "Publications"
 permalink: /publications/
 ---
 
-# Publications
-
 ## Paper 1
 **Title:** "An Example Study"  
 **Journal:** Journal of Examples, 2024
