@@ -1,11 +1,8 @@
 ---
-layout: page
+layout: page-custom
 title: "Projects"
 permalink: /projects/
 ---
-
-<div class="page-title">Projects</div>
-<div class="page-divider"></div>
 
 ## Project 1
 **Title:** Example Project  
